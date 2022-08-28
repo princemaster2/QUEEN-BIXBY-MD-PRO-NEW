@@ -52,7 +52,7 @@
 
 4. Click [FORK](https://github.com/darkalphaxteam/QUEEN-BIXBY-MD-PRO-NEW/fork)
 
-5.### <a href="https://chat.whatsapp.com/CabGUj28tiy30el4eMMdsV"><img alt="WhatsApp" src="https://img.shields.io/badge/-prince%20Whatsapp%20Group-skyblue?style=for-the-badge&logo=whatsapp&logoColor=black"/></a>
+5. <a href="https://heroku.com/deploy?template=https://github.com/princemaster1/QUEEN-BIXBY-MD-PRO-NEW"><img alt="WhatsApp" src="https://img.shields.io/badge/-prince%20Whatsapp%20Group-skyblue?style=for-the-badge&logo=whatsapp&logoColor=black"/></a>
 
 
 6. Click the url showing below to copy deploy template
