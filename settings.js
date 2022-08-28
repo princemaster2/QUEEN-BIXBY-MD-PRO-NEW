@@ -19,14 +19,14 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['94711421243']
-global.premium = ['94711421243']
-global.ownernomer = '94711421243'
-global.ownername = 'Dark Alpha'
-global.botname = 'BIXBY-MD USER BOT'
+global.owner = ['254768371432']
+global.premium = ['254768371432']
+global.ownernomer = '254768371432'
+global.ownername = 'prince'
+global.botname = 'elina'
 global.footer = ' Qᴜᴇᴇɴ ʙɪxʙʏ ᴘᴜʙʟɪᴄ ᴇᴅɪᴛɪᴏɴ.'
-global.ig = 'https://github.com/darkalphaxteam'
-global.region = 'India, South India, Kerala'
+global.ig = 'https://github.com/princemaster1'
+global.region = 'India, South India, Kerala,kenya'
 global.sc = 'https://github.com/darkalphaxteam/QUEEN-BIXBY-MD-PRO-NEW'
 global.myweb = 'https://youtube.com/channel/UCvpyOCBCaBSCdv4QolnO0WQ'
 global.packname = 'Queen Bixby MD'
@@ -71,3 +71,5 @@ fs.watchFile(file, () => {
 	delete require.cache[file]
 	require(file)
 })
+IT'S ME!! 
+PRINCE
