@@ -30,16 +30,16 @@ global.region = 'India, South India, Kerala,kenya'
 global.sc = 'https://github.com/darkalphaxteam/QUEEN-BIXBY-MD-PRO-NEW'
 global.myweb = 'https://youtube.com/channel/UCvpyOCBCaBSCdv4QolnO0WQ'
 global.packname = 'Queen Bixby MD'
-global.author = 'DARK ALPHA'
+global.author = 'prince'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '🚢'
 global.mess = {
     success: 'Done ✓',
     admin: 'This Feature Is Only For Admin!',
-    botAdmin: 'Bot Must Be Admin First!',
+    botAdmin: 'Bot Must Be Admin First BAKA!',
     owner: 'This Feature Is Only For Owner!',
-    group: 'Feature Used Only For Groups!',
+    group: 'Feature Used Only For Groups BAKA!',
     private: 'Features Used Only For Private Chat!',
     bot: 'This Feature Is Only For Bot',
     wait: 'Please Wait...',
