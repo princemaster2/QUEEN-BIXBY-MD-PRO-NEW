@@ -19,27 +19,27 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['94711421243']
-global.premium = ['94711421243']
-global.ownernomer = '94711421243'
-global.ownername = 'Dark Alpha'
-global.botname = 'BIXBY-MD USER BOT'
+global.owner = ['254768371432']
+global.premium = ['254768371432']
+global.ownernomer = '254768371432'
+global.ownername = 'prince'
+global.botname = 'PRINCE USER BOT'
 global.footer = ' Qᴜᴇᴇɴ ʙɪxʙʏ ᴘᴜʙʟɪᴄ ᴇᴅɪᴛɪᴏɴ.'
-global.ig = 'https://github.com/darkalphaxteam'
-global.region = 'India, South India, Kerala'
+global.ig = 'wa.me/254768371432'
+global.region = 'KENYA'
 global.sc = 'https://github.com/darkalphaxteam/QUEEN-BIXBY-MD-PRO-NEW'
-global.myweb = 'https://youtube.com/channel/UCvpyOCBCaBSCdv4QolnO0WQ'
-global.packname = 'Queen Bixby MD'
-global.author = 'DARK ALPHA'
+global.myweb = 'github.com/princemaster1'
+global.packname = 'Prince Bixby MD'
+global.author = 'prince'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '🚢'
 global.mess = {
     success: 'Done ✓',
-    admin: 'This Feature Is Only For Admin!',
-    botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This Feature Is Only For Owner!',
-    group: 'Feature Used Only For Groups!',
+    admin: 'This Feature Is Only For Admin 𝗕𝗔𝗞𝗔!',
+    botAdmin: 'Bot Must Be Admin First 𝗕𝗔𝗞𝗔!',
+    owner: 'This Feature Is Only For Owner 𝗦𝗧𝗨𝗣𝗜𝗗!',
+    group: 'Feature Used Only For Groups 𝗦𝗧𝗨𝗣𝗜𝗗!',
     private: 'Features Used Only For Private Chat!',
     bot: 'This Feature Is Only For Bot',
     wait: 'Please Wait...',
