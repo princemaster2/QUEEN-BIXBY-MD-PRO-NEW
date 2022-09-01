@@ -32,7 +32,7 @@ global.myweb = 'github.com/princemaster1'
 global.packname = 'Prince Bixby MD'
 global.author = 'prince'
 global.sessionName = 'session'
-global.prefa = ['','!','.','🐦','🐤','🗿']
+global.prefa = ['','']
 global.sp = '🚢'
 global.mess = {
     success: 'Done ✓',
