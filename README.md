@@ -35,7 +35,7 @@
 
 </p>
 
-  <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/princemaster2/QUEEN-BIXBY-MD-PRO-NEW"><img align="center" src="https://i.imgur.com/vUIRd80.png" alt="Fork and deploy" height="112" width="300" /></a>
+  <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/princemaster2/QUEEN-BIXBY-MD-PRO-NEW"><img align="center" src="https://telegra.ph/file/62038c96ccc2b37427081.jpg" alt="Fork and deploy" height="85" width="300" /></a>
 
 <br>
 
