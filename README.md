@@ -56,7 +56,7 @@
 
 ```
 
-https://heroku.com/deploy?template=https://github.com/darkalphaxteam/QUEEN-BIXBY-MD-PRO-NEW
+[𝘿𝙀𝙋𝙇𝙊𝙔](https://heroku.com/deploy?template=https://github.com/princemaster2/QUEEN-BIXBY-MD-PRO-NEW))                        
 
 ``` 
 
