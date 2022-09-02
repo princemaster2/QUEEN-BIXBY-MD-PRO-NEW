@@ -35,7 +35,7 @@
 
 </p>
 
-  <p align="center"><a href="https://github.com/darkalphaxteam/Queen-Bixby-MD-Pro/fork"><img align="center" src="https://i.imgur.com/vUIRd80.png" alt="Fork and deploy" height="112" width="300" /></a>
+  <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/princemaster2/QUEEN-BIXBY-MD-PRO-NEW"><img align="center" src="https://i.imgur.com/vUIRd80.png" alt="Fork and deploy" height="112" width="300" /></a>
 
 <br>
 
@@ -55,8 +55,7 @@
 5. Click the url showing below to copy deploy template
 
 ```
-
-[𝘿𝙀𝙋𝙇𝙊𝙔](https://heroku.com/deploy?template=https://github.com/princemaster2/QUEEN-BIXBY-MD-PRO-NEW)                       
+  
 
 ``` 
 
