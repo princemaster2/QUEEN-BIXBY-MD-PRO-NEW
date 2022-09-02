@@ -56,10 +56,10 @@
 
 ```
   
-
+ https://heroku.com/deploy?template=https://github.com/princemaster2/QUEEN-BIXBY-MD-PRO-NEW
 ``` 
 
-6. Now change `darkalphaxteam´ with your github username and click ENJOY<br>
+6. Now change `princemaster2´ with your github username and click ENJOY<br>
 
    <br>
 
