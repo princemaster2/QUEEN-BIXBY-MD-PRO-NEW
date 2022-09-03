@@ -1,140 +1,65 @@
-//════════════════════════════//
-//If you want to recode, reupload
-//or copy the codes/script,
-//pls give credit
-//no credit? i will take action immediately
-//© 2022 Xeon Bot Inc. Cheems Bot MD
-//Thank you to Lord Buddha, Family and Myself
-//════════════════════════════//
-//recode kar ke youtube pe upload kar rhe ya
-//codes copy kar ke apne script me dal rhe
-//hai to, description me xeon ka yt channel
-// ka link paste kr dena as a cradit or github 
-//repo me bhi tag kardena baki jo
-//bhi karna hai apki marzi, thank you!🦄
-//════════════════════════════//
-//If you recode and uploading on your channel
-//or copy pasting the codes in ur script, 
-//i give permission to do as long as you
-//put Xeons youtube channel link in the video
-//description and tag me on githuh repo, 
-//thank you🦄
+//═══════════════════════════════════════════════════════//
+//
+//                              𝙶𝙾𝙹𝙾-𝚂𝙰𝚃𝙾𝚁𝚄 𝓫𝔂 𝓷𝓮𝔁𝓾𝓼𝓝𝔀
+//𝙰𝙳𝙾𝙿𝚃𝙴𝙳 𝙵𝚁𝙾𝙼  𝚂𝙲𝚁𝙸𝙿𝚃 𝙾𝙵 𝙲𝙷𝙴𝙴𝙼𝚂𝙱𝙾𝚃 𝚅2 𝙱𝚈 𝙳𝙶𝚇𝚎𝚘𝚗 
+//
 //════════════════════════════//
 
-const fs = require("fs")
-const chalk = require("chalk")
+const fs = require('fs')
+const chalk = require('chalk')
 
-//aumto functioner
-global.autoTyping = false //auto tying in gc (true to on, false to off)
-global.autoreadpmngc = true //auto reading in gc and pm (true to on, false to off)
-global.autoReadGc = false //auto reading in gc (true to on, false to off)
-global.autoReadAll = true // auto reading in all pchat gc and status (true to on, false to off)
-global.autoRecord = false //auto recording (true to on, false to off)
-global.available = false //auto available (true to on, false to off)
-
-//documents variants
-global.doc1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
-global.doc2 = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-global.doc3 = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
-global.doc4 = 'application/zip'
-global.doc5 = 'application/pdf'
-global.doc6 = 'application/vnd.android.package-archive'
-
-//owmner v card
-global.owner = ['wa.me/254768371432'] //ur owner number
-global.ownername = "𝙋𝙍𝙄𝙉𝘾𝙀"                
-global.yts = "github.com/princemaster1" //prince
-global.socialm = "GitHub: DGXeon" //ur github or insta name
-global.location = "kenya" //ur location
-
-//bot bombdy
-global.botname = "Elina" //ur bot name
-global.websitex = "wa.me/254768371432" //ur website
-global.vidmenu = { url: '254768371432' } //gif and video menu
-global.packname = "𝙋𝙧𝙞𝙣𝙘𝙚 𝙢𝙖𝙙𝙚 𝙩𝙝𝙞𝙨 "              
-global.author = "prince"
-global.themeemoji = "🐶"
-global.reactmoji = "⚙️"
-global.ownertag = ['254768371432'] //ur owner tag
-global.ownernummenu = ['254768371432'] //ur owner number in menu and all
-global.watermark = "𝙥𝙧𝙞𝙣𝙘𝙚 𝙢𝙖𝙙𝙚 𝙩𝙝𝙞𝙨." //ur watermark                 
-global.botscript = "https://github.com/DGXeon/CheemsBot-MD3"
-global.linkz1 = "https://chat.whatsapp.com/CabGUj28tiy30el4eMMdsV"
-global.linkz2 = "https://chat.whatsapp.com/LwndLsy32cBBEBWuXbYWbA"
-
-//Bot theme media
-global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
-global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
-global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
-global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
-
-//database
-global.ntilinkytvid = []
-global.ntilinkytch = []
-global.ntilinkig = []
-global.ntilinkfb = []
-global.ntilinktg = []
-global.ntilinktt = []
-global.ntilinktwt = []
-global.ntilinkall = []
-global.nticall = []
-global.ntwame = []
-global.nttoxic = []
-global.ntnsfw = []
-global.ntvirtex = []
-global.rkyt = []
-global.wlcm = []
-global.gcrevoke = []
-global.autorep = []
-global.ntilink = []
-
-//omther
-global.lolhuman = "KaysaS"
-global.sessionName = "session"
-global.antitags = false
-global.prefa = ['','!','.','🐦','🐤','🗿']
-global.mess = {
-    success: 'Done✓ Thanks To Prince 🤭',
-    admin: 'This feature is only for admins 𝘽𝘼𝙆𝘼!',
-    botAdmin: 'Bot Must Be Admin First 𝘽𝘼𝙆𝘼!',
-    owner: 'This feature is only for owner 𝗸𝗻𝗼𝘄𝗻 𝗮𝘀 𝗽𝗿𝗶𝗻𝗰𝗲 𝘽𝘼𝙆𝘼😡',
-    group: 'This feature is only for groups 𝘽𝘼𝙆𝘼!',
-    private: 'This feature is only for private chats!',
-    bot: 'This feature is only for bot',
-    wait: 'In process...',
-    linkm: 'Where is the link 𝘽𝘼𝙆𝘼?',
-    error: 'Error!',
-    ban: 'You have been banned by the owner, if you want to be unbanned, chat prince my owner wa.me/254768371432.',
-    nsfw: 'The nsfw feature has not been activated, please contact the admin or my owner to activate wa.me/254768371432 ',
-    banChat: 'The bot was banned in this group, please contact prince my owner to unban wa.me/254768371432'              
-}
-global.limitawal = {
-    premium: "Infinity",
-    free: 2,
-    monayawal: 1000
-}
-   global.rpg = {
-   darahawal: 100,
-   besiawal: 95,
-   goldawal: 30,
-   emeraldawal: 8,
-   umpanawal: 10,
-   potionawal: 5
-}
-global.limitawal = {
-    rakyat: "Infinity",
-    free: 100
-}
-// api website by xenz
+//Api Website\\
 global.APIs = {
 	zenz: 'https://zenzapis.xyz',
 }
 
-// key
+//Api Key\\
 global.APIKeys = {
-	'https://zenzapis.xyz': 'Your Key',
+	'https://zenzapis.xyz': 'sanzychan01', //credit goes to sanzy yt, if api key expire, buy it and put it here?\\
 }
-//menu logo maker
+
+//customize settings\\
+global.owner = ['254768371432']
+global.premium = ['254768371432']
+global.ownernomer = '𝗽𝗥𝗶𝗡𝗰𝗘'
+global.ownername = 'prince'
+global.botname = 'PRINCE USER BOT'
+global.footer = ' Qᴜᴇᴇɴ ʙɪxʙʏ ᴘᴜʙʟɪᴄ ᴇᴅɪᴛɪᴏɴ.'
+global.ig = 'wa.me/254768371432'
+global.region = 'KENYA'
+global.sc = 'https://github.com/darkalphaxteam/QUEEN-BIXBY-MD-PRO-NEW'
+global.myweb = 'github.com/princemaster1'
+global.packname = 'Prince Bixby MD'
+global.author = 'prince'
+global.sessionName = 'session'
+global.prefa = ['','']
+global.sp = '🚢'
+global.mess = {
+    success: 'Done ✓',
+    admin: 'This Feature Is Only For Admin 𝗕𝗔𝗞𝗔 𝗠𝗕𝗪𝗔 𝗪𝗘𝗪𝗘!',
+    botAdmin: 'Bot Must Be Admin First 𝗕𝗔𝗞𝗔 𝗠𝗔𝗟𝗔𝗬𝗔 𝗦𝗔𝗡𝗔!',
+    owner: 'This Feature Is Only For Owner 𝗦𝗧𝗨𝗣𝗜𝗗!',
+    group: 'Feature Used Only For Groups 𝗦𝗧𝗨𝗣𝗜𝗗!',
+    private: 'Features Used Only For Private Chat!',
+    bot: 'This Feature Is Only For Bot',
+    wait: 'Please Wait...',
+    error: 'Error! Maybe Api Key Is Expired🤔!',
+    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
+}
+    global.limitawal = {
+    premium: "Infinity",
+    free: 12,
+    monayawal: 1000
+}
+   global.rpg = {
+   darahawal: 100,
+   besiawal: 15,
+   goldawal: 10,
+   emeraldawal: 5,
+   umpanawal: 5,
+   potionawal: 1
+}
+global.thumb = fs.readFileSync('./BixbyMedia/djt.jpg')
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
